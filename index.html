@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Subscribe to Emails</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="text-center">
+    <main class="form-signin w-100 m-auto">
+      <form method="post" action="/">
+        <img
+          class="mb-4"
+          src="/images/logo.png"
+          alt=""
+          width="72"
+          height="57"
+        />
+        <h1 class="h3 mb-3 fw-normal">Subscribe to e-mails</h1>
+
+        <div class="form-floating">
+          <input
+            name="email"
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            required
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input
+            name="fname"
+            type="text"
+            class="form-control fname"
+            id="floatingName"
+            required
+          />
+          <label for="floatingName">First Name</label>
+        </div>
+        <div class="form-floating">
+          <input
+            name="lname"
+            type="text"
+            class="form-control lname"
+            id="floatingName"
+            required
+          />
+          <label for="floatingName">Last Name</label>
+        </div>
+
+        <div class="checkbox mb-3"></div>
+        <button class="w-100 btn btn-lg btn-danger" type="submit">
+          Sign Me Up!
+        </button>
+        <p class="mt-4 mb-3 text-muted">&copy;Allied C 2023-2024</p>
+      </form>
+    </main>
+  </body>
+</html>
